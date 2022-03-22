@@ -8,7 +8,7 @@
 4. 所以这是学习复制来的代码，如果侵权请联系我删掉。
 5. 基于 MIT 协议开源。
 
-项目名称 go-clean-template,与https://github.com/evrone/go-clean-template/项目同名。
+项目名称 go-clean-template,与 https://github.com/evrone/go-clean-template/ 项目同名。
 
 程序结构说明，请见 [程序结构](https://learnku.com/courses/go-api/1.17/program-structure/11772)。
 
