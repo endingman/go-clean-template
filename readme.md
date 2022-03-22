@@ -1,11 +1,12 @@
 ## 说明
 
 本项目源于 [《G02 Go API 实战》](https://learnku.com/courses/go-api/) 实战课程的源码。
-1、学习后去掉 topic 那些论坛相关业务，取基础部分（基础架构+用户）作为一个常用模板，为了不用以后新项目重新从头搭建。
-2、增加 docs 文件夹（接口文档、使用文档相关）、build 文件夹（docker 部署相关）,这两个文件夹内容还没构建，暂时空着的，这里考虑到以后文档跟 docker 部署，参考https://github.com/evrone/go-clean-template/。
-3、temp 目录是 air 配置运行时生成的目录。
-4、所以这是学习复制来的代码，如果侵权请联系我删掉。
-5、基于 MIT 协议开源。
+
+1. 学习后去掉 topic 那些论坛相关业务，取基础部分（基础架构+用户）作为一个常用模板，为了不用以后新项目重新从头搭建。
+2. 增加 docs 文件夹（接口文档、使用文档相关）、build 文件夹（docker 部署相关）,这两个文件夹内容还没构建，暂时空着的，这里考虑到以后文档跟 docker 部署，参考https://github.com/evrone/go-clean-template/。
+3. temp 目录是 air 配置运行时生成的目录。
+4. 所以这是学习复制来的代码，如果侵权请联系我删掉。
+5. 基于 MIT 协议开源。
 
 项目名称 go-clean-template,与https://github.com/evrone/go-clean-template/项目同名。
 
@@ -156,9 +157,9 @@ Usage:
    make [command]
 
 Available Commands:
-  apicontroller Create api controller，exmaple: make apicontroller v1/user
-  cmd           Create a command, should be snake_case, exmaple: make cmd buckup_database
-  factory       Create model's factory file, exmaple: make factory user
+  apicontroller Create api controller，example: make apicontroller v1/user
+  cmd           Create a command, should be snake_case, example: make cmd buckup_database
+  factory       Create model's factory file, example: make factory user
   migration     Create a migration file, example: make migration add_users_table
   model         Crate model file, example: make model user
   policy        Create policy file, example: make policy user
