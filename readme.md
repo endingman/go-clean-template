@@ -6,7 +6,16 @@
 2. 增加 docs 文件夹（接口文档、使用文档相关）、build 文件夹（docker 部署相关）,这两个文件夹内容还没构建，暂时空着的，这里考虑到以后文档跟 docker 部署，参考https://github.com/evrone/go-clean-template/。
 3. temp 目录是 air 配置运行时生成的目录。
 4. 所以这是学习复制来的代码，如果侵权请联系我删掉。
-5. 基于 MIT 协议开源。
+5. 后续的学习会同步更新 G03:
+   1. API 测试
+   2. API 文档
+   3. 计划任务
+   4. 队列机制
+   5. 部署
+      1. docker 部署
+      2. 平滑升级（优雅重启）
+   6. pprof 性能调优
+6. 基于 MIT 协议开源。
 
 项目名称 go-clean-template,与 https://github.com/evrone/go-clean-template/ 项目同名。
 
